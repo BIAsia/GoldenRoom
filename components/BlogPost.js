@@ -13,12 +13,12 @@ const BlogPost = ({ post }) => {
             </h2>
           </a>
         </Link>
-        <time className="flex-shrink-0 text-gray-600 dark:text-gray-400">
+        {/* <time className="flex-shrink-0 text-gray-600 dark:text-gray-400">
           {formatDate(post?.date?.start_date || post.createdTime, BLOG.lang)}
-        </time>
+        </time> */}
       </header>
       <main>
-        <p className="hidden md:block leading-8 text-gray-700 dark:text-gray-300">
+        <p className="md:block leading-8 text-gray-700 dark:text-gray-300">
           {post.summary}
         </p>
       </main>
